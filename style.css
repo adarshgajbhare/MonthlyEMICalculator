@@ -1,0 +1,68 @@
+*{
+    
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav{
+   
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    padding: 20px;
+    background-color: white;
+}
+
+.header{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.lable-amt, .interest-label, .months-to-pay-lable{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+
+button{
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;  
+}
+
+.output{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#emi{
+    color: red;
+}
